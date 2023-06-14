@@ -173,16 +173,21 @@ m-минуты S-секунды. Возвращает значение с наи
 Даны два отрицательных числа A и B. Найдите сумму четных
 чисел от A до B. */
 
-// function evenNum(a,b){
-//   let sum = 0
-//   for(let i = a; i <= b; i++){
-//     if(i % 2 == 0){
-//         sum += i;
-//     }
-//     return sum
-//   }
-// }
-// console.log(evenNum(-5,-3))
+    // function evenNum(a,b){
+    //   let sum = 0
+    //   let max = Math.max(a,b)
+    //   let min = Math.min(a,b)
+
+    //   for(let i = max; i >= min; i--){
+    //     if(i % 2 == 0){
+    //         sum = i;
+    //     }
+    //   }
+    //   return sum
+    // }
+    // console.log(evenNum(-5,-3))
+    // console.log(evenNum(-1,-1))
+
 
 
 
@@ -236,6 +241,6 @@ m-минуты S-секунды. Возвращает значение с наи
 цифры, пока в результате не останется только одна цифра, и
 верните ее. */
 
-function addDigits(){
+// function addDigits(){
     
-}
+// }
